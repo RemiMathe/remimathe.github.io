@@ -2,5 +2,5 @@
 layout: default
 ---
 
-##Mon autre titre##
+##Mon titre 2##
 Mon paragraphe
