@@ -10,14 +10,9 @@
 </header>
 
 <main>
-{% for post %}
-<h1>{{ post.title }}</h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+{% for post in paginator.posts %}
+<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+  <p><span class="date">{{ post.date }}</span></p>
 {% enfor %}
 </main>
 <footer>
