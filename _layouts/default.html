@@ -48,7 +48,6 @@
                 <ol class="breadcrumb">
                     <li><a href="index.html">Accueil</a>
                     </li>
-                    <li class="active">Les trois derniers articles</li>
                 </ol>
             </div>
         </div>
@@ -65,11 +64,14 @@
             </div>
           {% endfor %}
         </div>
+        
+        <hr>
+
+        <footer>
+            {% include footer.html %}
+        </footer>
     </div>
 </main>
-<footer>
-{% include footer.html %}
-</footer>
 </body>
 </html> 
 
