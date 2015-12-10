@@ -38,10 +38,7 @@ title: Contact
                 </ul>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
                 <h3>Contactez moi...</h3>
